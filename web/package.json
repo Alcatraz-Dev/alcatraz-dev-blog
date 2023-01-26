@@ -1,0 +1,61 @@
+{
+  "name": "alcatrazdev",
+  "version": "1.0.0",
+  "private": true,
+  "description": "alcatrazdev",
+  "author": "haythem dhahri",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "dev": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^4.5.2",
+    "@fontsource/poppins": "^4.5.1",
+    "@portabletext/react": "^1.0.2",
+    "@sanity/asset-utils": "^1.2.3",
+    "axios": "^0.26.0",
+    "babel-plugin-styled-components": "^2.0.2",
+    "clsx": "^1.1.1",
+    "date-fns": "^2.28.0",
+    "file-saver": "^2.0.5",
+    "gatsby": "^5.4.2",
+    "gatsby-plugin-image": "^3.4.0",
+    "gatsby-plugin-local-search": "^2.0.1",
+    "gatsby-plugin-react-helmet": "^6.4.0",
+    "gatsby-plugin-sass": "^6.4.0",
+    "gatsby-plugin-sharp": "^5.4.0",
+    "gatsby-plugin-styled-components": "^6.4.0",
+    "gatsby-source-filesystem": "^5.4.0",
+    "gatsby-source-sanity": "^7.3.2",
+    "gatsby-transformer-sharp": "^5.4.0",
+    "get-youtube-id": "^1.0.1",
+    "hyvor-talk-react": "^2.0.1",
+    "normalize.css": "^8.0.1",
+    "react": "^18.0.0",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^18.0.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
+    "react-kofi-button": "^0.7.1",
+    "react-lite-youtube-embed": "^2.3.52",
+    "react-share": "^4.4.1",
+    "react-simple-typewriter": "^5.0.1",
+    "react-social-icons": "^5.15.0",
+    "react-social-media-embed": "^2.3.3",
+    "react-syntax-highlighter": "^15.4.5",
+    "react-use-flexsearch": "^0.1.1",
+    "sass": "^1.57.1",
+    "scss": "^0.2.4",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "root": true,
+  "api": {
+    "projectId": "ioccnv0o",
+    "dataset": "production"
+  },
+  "project": {
+    "name": "Dev Blog"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "@sanity/code-input"
+  ],
+  "env": {
+    "development": {
+      "plugins": ["@sanity/vision"]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    },
+    {
+      "name": "part:@sanity/desk-tool/structure",
+      "path": "./components/SidebarList"
+    }
+  ]
+}
