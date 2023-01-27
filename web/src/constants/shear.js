@@ -1,70 +1,70 @@
-// import axios, { Axios } from 'axios';
-// import React from 'react'
-// import { FacebookShareButton,
-//   FacebookIcon,
-//   FacebookMessengerIcon, 
-//   FacebookMessengerShareButton,
-//   TwitterShareButton,
-//   TwitterIcon, LinkedinShareButton,
-//   LinkedinIcon,
-//   RedditShareButton,
-//   RedditIcon,
-//   TelegramShareButton,
-//   TelegramIcon,
-//   VKShareButton,
-//   VKIcon,
-//   WhatsappShareButton,
-//   WhatsappIcon} from 'react-share'
+import axios, { Axios } from 'axios';
+import React from 'react'
+import { FacebookShareButton,
+  FacebookIcon,
+  FacebookMessengerIcon, 
+  FacebookMessengerShareButton,
+  TwitterShareButton,
+  TwitterIcon, LinkedinShareButton,
+  LinkedinIcon,
+  RedditShareButton,
+  RedditIcon,
+  TelegramShareButton,
+  TelegramIcon,
+  VKShareButton,
+  VKIcon,
+  WhatsappShareButton,
+  WhatsappIcon} from 'react-share'
 
 
 
-// function Share() {
-//    const currentUrl = window.location.href;
-//   return (
-//     <div  style={{ marginTop:"20px"}}>
-//         <h2 style={{color:"#59981A" 
-//     }}>Please share this post ,thank's 😊 </h2>
+function Share() {
+   const currentUrl = window.location.href;
+  return (
+    <div  style={{ marginTop:"20px"}}>
+        <h2 style={{color:"#59981A" 
+    }}>Please share this post ,thank's 😊 </h2>
       
-// <div style={{alignItems:"center", justifyContent:"space-between"}}>
-// <FacebookShareButton style={{ marginRight:"20px", marginTop:"20px"}} url={currentUrl} quote='Thanks for sharing this post 😊'
-//         hashtag='#AlcatraDev'>
-//      <FacebookIcon size={35} round={true}/>
-//         </FacebookShareButton>
-//         <FacebookMessengerShareButton style={{ marginRight:"20px", marginTop:"20px"}} url={currentUrl} quote='Thanks for sharing this post 😊'
-//         hashtag='#AlcatraDev'>
-//      <FacebookMessengerIcon size={35} round={true}/>
-//         </FacebookMessengerShareButton>
-//         <TwitterShareButton style={{ marginRight:"20px", marginTop:"20px"}} url={currentUrl} quote='Thanks for sharing this post 😊'
-//         hashtag='#AlcatraDev'>
-//      <TwitterIcon size={35} round={true}/>
-//         </TwitterShareButton>
-//         <LinkedinShareButton style={{ marginRight:"20px", marginTop:"20px"}} url={currentUrl} quote='Thanks for sharing this post 😊'
-//         hashtag='#AlcatraDev'>
-//      <LinkedinIcon size={35} round={true} />
-//         </LinkedinShareButton>
-//         <VKShareButton style={{ marginRight:"20px", marginTop:"20px"}} url={currentUrl} quote='Thanks for sharing this post 😊'
-//         hashtag='#AlcatraDev'>
-//      <VKIcon size={35} round={true} />
-//         </VKShareButton>
-//         <TelegramShareButton style={{ marginRight:"20px", marginTop:"20px"}} url={currentUrl} quote='Thanks for sharing this post 😊'
-//         hashtag='#AlcatraDev'>
-//      <TelegramIcon size={35} round={true} />
-//         </TelegramShareButton>
-//         <WhatsappShareButton style={{ marginRight:"20px", marginTop:"20px"}} url={currentUrl} quote='Thanks for sharing this post 😊'
-//         hashtag='#AlcatraDev'>
-//      <WhatsappIcon size={35} round={true} />
-//         </WhatsappShareButton>
-//         <RedditShareButton style={{ marginRight:"20px", marginTop:"20px"}} url={currentUrl} quote='Thanks for sharing this post 😊'
-//         hashtag='#AlcatraDev'>
-//      <RedditIcon size={35} round={true} />
-//         </RedditShareButton>
+<div style={{alignItems:"center", justifyContent:"space-between"}}>
+<FacebookShareButton style={{ marginRight:"20px", marginTop:"20px"}} url={currentUrl} quote='Thanks for sharing this post 😊'
+        hashtag='#AlcatraDev'>
+     <FacebookIcon size={35} round={true}/>
+        </FacebookShareButton>
+        <FacebookMessengerShareButton style={{ marginRight:"20px", marginTop:"20px"}} url={currentUrl} quote='Thanks for sharing this post 😊'
+        hashtag='#AlcatraDev'>
+     <FacebookMessengerIcon size={35} round={true}/>
+        </FacebookMessengerShareButton>
+        <TwitterShareButton style={{ marginRight:"20px", marginTop:"20px"}} url={currentUrl} quote='Thanks for sharing this post 😊'
+        hashtag='#AlcatraDev'>
+     <TwitterIcon size={35} round={true}/>
+        </TwitterShareButton>
+        <LinkedinShareButton style={{ marginRight:"20px", marginTop:"20px"}} url={currentUrl} quote='Thanks for sharing this post 😊'
+        hashtag='#AlcatraDev'>
+     <LinkedinIcon size={35} round={true} />
+        </LinkedinShareButton>
+        <VKShareButton style={{ marginRight:"20px", marginTop:"20px"}} url={currentUrl} quote='Thanks for sharing this post 😊'
+        hashtag='#AlcatraDev'>
+     <VKIcon size={35} round={true} />
+        </VKShareButton>
+        <TelegramShareButton style={{ marginRight:"20px", marginTop:"20px"}} url={currentUrl} quote='Thanks for sharing this post 😊'
+        hashtag='#AlcatraDev'>
+     <TelegramIcon size={35} round={true} />
+        </TelegramShareButton>
+        <WhatsappShareButton style={{ marginRight:"20px", marginTop:"20px"}} url={currentUrl} quote='Thanks for sharing this post 😊'
+        hashtag='#AlcatraDev'>
+     <WhatsappIcon size={35} round={true} />
+        </WhatsappShareButton>
+        <RedditShareButton style={{ marginRight:"20px", marginTop:"20px"}} url={currentUrl} quote='Thanks for sharing this post 😊'
+        hashtag='#AlcatraDev'>
+     <RedditIcon size={35} round={true} />
+        </RedditShareButton>
   
       
-// </div>
+</div>
        
       
-//     </div>
-//   )
-// }
+    </div>
+  )
+}
 
-// export default Share
+export default Share
