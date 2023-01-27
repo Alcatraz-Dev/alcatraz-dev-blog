@@ -88,11 +88,11 @@ function SingleBlog({ data }) {
               <Embed websiteId={8320} id={false} />
             </div>
           </div>
-          <div className="container">
+          {/* <div className="container">
             <div>
              <Share/>
             </div>
-          </div>
+          </div> */}
           <div className="container">
             <div>
              <SupportButtons/>

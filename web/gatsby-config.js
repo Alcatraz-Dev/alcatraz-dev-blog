@@ -30,27 +30,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-styled-components',
     },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: `category`,
-        path: `${__dirname}/category`,
-      }
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: `blog`,
-        path: `${__dirname}/blog`,
-      }
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: `author`,
-        path: `${__dirname}/author`,
-      }
-    },
+
     {
       resolve: `gatsby-plugin-local-search`,
       options: {
