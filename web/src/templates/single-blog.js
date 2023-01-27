@@ -43,6 +43,7 @@ export const postQuery = graphql`
 `;
 function SingleBlog({ data }) {
   const blog = data.sanityBlog;
+  const url= typeof window !=='undefined' ? window.location.href:'';
   return (
     <SingleBlogStyles>
       <SEO title={blog.title} />
@@ -90,7 +91,7 @@ function SingleBlog({ data }) {
           </div>
           <div className="container">
             <div>
-             <Share/>
+             <Share url={url} desc={blog.title}/>
             </div>
           </div>
           <div className="container">
