@@ -1,3 +1,4 @@
+import axios, { Axios } from 'axios';
 import React from 'react'
 import { FacebookShareButton,
   FacebookIcon,
@@ -16,9 +17,9 @@ import { FacebookShareButton,
   WhatsappIcon} from 'react-share'
 
 
-const currentUrl = window.location.href;
-function Share() {
 
+function Share() {
+   const currentUrl = window.location.href;
   return (
     <div  style={{ marginTop:"20px"}}>
         <h2 style={{color:"#59981A" 
