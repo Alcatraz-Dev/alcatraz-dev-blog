@@ -64,11 +64,7 @@ const GlobalStyles = createGlobalStyle`
     position:relative;
   }
 
-  // img, svg{
-  //   height: 100%;
-  //   width: 100%;
-    
-  // }
+  
 
 
   .dec{
