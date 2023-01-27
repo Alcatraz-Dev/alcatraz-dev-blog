@@ -4,8 +4,12 @@ const sanityConfig = require('./sanity-config.js');
 module.exports = {
   siteMetadata: {
     title: `alcatrazdev-blog`,
-    siteUrl: `https://alcatrazdev-blog.netlify.com`,
+    siteUrl: `https://alcatraz-dev-blog.vercel.app`,
     description: `Alcatraz Dev Blog is a platform for latest technology news and updates.`,
+    
+  },
+  flags:{
+     DEV_SSR:true
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,8 +23,10 @@ module.exports = {
       resolve: 'gatsby-source-sanity',
       options: {
         ...sanityConfig,
+
       },
     },
+
     {
       resolve: 'gatsby-plugin-styled-components',
     },

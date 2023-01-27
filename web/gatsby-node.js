@@ -1,3 +1,18 @@
+exports,onCreateWebpackConfig=({stage,loaders,actions})=>{
+  if(stage==="build-html" || stage==="develop-html"||stage==="develop"){
+    actions.setWebpackConfig({
+      module:{
+        rules:[
+          {
+            test:/bad-module/,
+            use:loaders.null(),
+          },
+        ],
+      },
+    })
+  }
+}
+
 exports.createPages = async ({ graphql, actions }) => {
   const postsPerPage = parseInt(process.env.GATSBY_POST_PER_PAGE) || 10;
   // templates path
