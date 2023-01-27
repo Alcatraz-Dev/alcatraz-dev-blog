@@ -90,6 +90,11 @@ function SingleBlog({ data }) {
           </div>
           <div className="container">
             <div>
+             <Share/>
+            </div>
+          </div>
+          <div className="container">
+            <div>
              <SupportButtons/>
             </div>
           </div>
