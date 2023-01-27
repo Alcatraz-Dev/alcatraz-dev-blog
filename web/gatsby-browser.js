@@ -3,7 +3,7 @@ import '@fontsource/inter/500.css';
 import '@fontsource/poppins/600.css';
 import '@fontsource/poppins/700.css';
 import "@fontsource/quicksand/700.css";
-import React from 'react';
+import * as React from 'react';
 import Layout from './src/components/Layout';
 
 export const wrapPageElement = ({ element, props }) => (
