@@ -84,11 +84,11 @@ function SingleBlog({ data }) {
           <div className="body">
             <MyPortableText  value={blog._rawBody} />
           </div>
-          <div className="container">
+          {/* <div className="container">
             <div>
               <Embed websiteId={8320} id={false} />
             </div>
-          </div>
+          </div> */}
           <div className="container">
             <div>
              <Share url={url} desc={blog.title}/>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { PortableText } from '@portabletext/react';
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import ReactSyntaxHighlighter, { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import theme from 'react-syntax-highlighter/dist/esm/styles/prism/dracula';
 import { getImage, getImageDimensions } from '@sanity/asset-utils';
 import { GatsbyImage } from 'gatsby-plugin-image';
@@ -13,9 +13,6 @@ import sanityConfig from '../../sanity-config';
 import { getSanityImageData } from '../utils/getSanityImageData';
 import { InstagramEmbed , FacebookEmbed , LinkedInEmbed, TwitterEmbed, PinterestEmbed, TikTokEmbed } from 'react-social-media-embed';
 import { Link } from 'gatsby';
-import Button from './buttons/Button';
-
-
 
 const myPortableTextComponents = {
   block: {
@@ -74,8 +71,12 @@ const myPortableTextComponents = {
             style={theme}
             className="code-font"
             language={value.code.language}
+           value={value.code.code}          
+            
+
           >
             {String(value.code.code).replace(/\n$/, '')}
+            
           </SyntaxHighlighter>
         </div>
       );
