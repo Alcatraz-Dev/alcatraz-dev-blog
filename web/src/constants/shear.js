@@ -22,7 +22,7 @@ function Share({url,desc}) {
   
   return (
     <div  style={{ marginTop:"20px"}}>
-        <h2 style={{color:"#59981A" 
+        <h2 style={{color:"#ffffff" 
     }}>Please share this post ,thank's 😊 </h2>
       
 <div style={{alignItems:"center", justifyContent:"space-between"}}>
