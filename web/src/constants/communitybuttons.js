@@ -8,7 +8,7 @@ function CommunityButtons() {
   
   return (
     <div  style={{ marginTop:"20px"}}>
-        <h2 style={{color:"#59981A" 
+        <h2 style={{color:"#C6BED9" 
     }}>If you like content, you can join us and get all my assets and tools , and
     you can access my future lessons 😉 </h2>
   

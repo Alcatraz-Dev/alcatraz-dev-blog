@@ -8,7 +8,7 @@ function SupportButtons() {
   
   return (
     <div  style={{ marginTop:"20px"}}>
-        <h2 style={{color:"#ffffff" 
+        <h2 style={{color:"#C6BED9" 
     }}>If you like content you can support us , thank's 😊 </h2>
   
 <div className='container'>
